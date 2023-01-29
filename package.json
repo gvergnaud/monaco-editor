@@ -1,6 +1,6 @@
 {
 	"name": "monaco-editor-v5-test-do-not-use",
-	"version": "0.34.2",
+	"version": "0.34.3-test.0",
 	"vscodeRef": "0316a754aa4c25208bef91937efbce2ab1e3ce37",
 	"description": "A browser based code editor",
 	"author": "Microsoft Corporation",
