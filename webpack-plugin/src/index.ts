@@ -5,7 +5,10 @@ import * as fs from 'fs';
 import { AddWorkerEntryPointPlugin } from './plugins/AddWorkerEntryPointPlugin';
 import { IFeatureDefinition } from './types';
 import { ILoaderOptions } from './loaders/include';
-import { EditorLanguage, EditorFeature, NegatedEditorFeature } from 'monaco-editor/esm/metadata';
+
+type EditorLanguage = any;
+type EditorFeature = any;
+type NegatedEditorFeature = any;
 
 const INCLUDE_LOADER_PATH = require.resolve('./loaders/include');
 
